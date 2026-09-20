@@ -1,0 +1,25 @@
+{
+  "id": "g02",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What is the minimum word count for the IELTS Academic Writing Task 1, and how much time is suggested for it?",
+  "expected_answer": "You need to write at least 150 words in about 20 minutes for Academic Writing Task 1.",
+  "expected_context": "In Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.",
+  "answer": "The minimum word count for the IELTS Academic Writing Task 1 is 150 words, and the suggested time to complete it is about 20 minutes [S1], [S3].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "## What’s in the IELTS Academic Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes.",
+    "in the task, using a minimum of 150 words.  \nPage 1 of 4  \nIELTS is jointly owned by the British Council; IDP IELTS; and  \nCambridge University Press & Assessment  \nIELTS.org  \nAcademic Writing Task 1  \nThis Writing task has a defined input and a largely predictable output. It is basically an\ninformation-transfer task, which relates narrowly to the factual content of a diagram,\ngraph, table, chart, map or other visual input, not to speculative explanations that lie\noutside the given data."
+  ],
+  "context_ids": [
+    "news/C03_ielts_academic_writing_format.md::chunk-2",
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-3"
+  ],
+  "scores": [
+    0.7156912684440613,
+    0.660625696182251
+  ],
+  "context_hit": true,
+  "latency_ms": 1425.118500003009,
+  "trace_error": null
+}

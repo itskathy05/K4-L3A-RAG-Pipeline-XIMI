@@ -1,0 +1,22 @@
+{
+  "id": "g16",
+  "config": "B_hybrid",
+  "query_type": "in_domain",
+  "question": "What does the Lexical Resource criterion assess in IELTS Writing?",
+  "expected_answer": "Lexical Resource assesses the range of general words used, the adequacy and appropriacy of vocabulary, the precision of word choice, and the control of collocations and idiomatic expressions.",
+  "expected_context": "The LR criterion assesses:\nthe range of general words used (e.g. the use of synonyms to avoid repetition).\nthe adequacy and appropriacy of the vocabulary (e.g. topic-specific items,\nindicators of writer's attitude).\nthe precision of word choice and expression.\nthe control and use of collocations, idiomatic expressions and sophisticated\nphrasing.",
+  "answer": "The Lexical Resource criterion in IELTS Writing assesses the range of vocabulary the candidate has used, as well as the accuracy and appropriateness of that vocabulary in relation to the specific task requirements [S4].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "the appropriate use of discourse markers to clearly mark the stages in a\nresponse, e.g. [First of all | In conclusion], and to signal the relationship between\nideas and/or information, e.g. [as a result | similarly].  \nPage 3 of 4  \nIELTS.org  \nLEXICAL RESOURCE (LR)  \nThis criterion refers to the range of vocabulary the candidate has used and the\naccuracy and appropriacy of that use in terms of the specific task.  \nThe LR criterion assesses:"
+  ],
+  "context_ids": [
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-10"
+  ],
+  "scores": [
+    0.03055037313432836
+  ],
+  "context_hit": false,
+  "latency_ms": 1347.3535999946762,
+  "trace_error": null
+}

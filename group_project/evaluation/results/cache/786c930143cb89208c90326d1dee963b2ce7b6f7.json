@@ -1,0 +1,22 @@
+{
+  "id": "g13",
+  "config": "B_hybrid",
+  "query_type": "in_domain",
+  "question": "What kind of task is IELTS General Training Writing Task 1?",
+  "expected_answer": "General Training Writing Task 1 asks you to respond to a situation by writing a letter, for example asking for information or explaining a situation, in at least 150 words in about 20 minutes.",
+  "expected_context": "In Task 1, you have to respond to a situation by writing a letter, for example, asking for information or explaining a situation. You need to write at least 150 words in about 20 minutes.",
+  "answer": "IELTS General Training Writing Task 1 involves responding to a situation by writing a letter. The letter can be personal, semi-formal, or formal in style, and you need to include specific information as outlined in the task, which is presented in the form of three bullet points. The response must be at least 150 words long [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "### Writing tasks 1 and 2\n##### Task 1\n#### What's involved?\nIn General Training Writing Task 1, you are given a situation and you need to write a response of at least 150 words in the form of a letter. Depending on the task, the letter may be personal, semi-formal or formal in style. The task tells you what information to include in the form of three bullet points."
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-9"
+  ],
+  "scores": [
+    0.032266458495966696
+  ],
+  "context_hit": false,
+  "latency_ms": 1515.402000004542,
+  "trace_error": null
+}

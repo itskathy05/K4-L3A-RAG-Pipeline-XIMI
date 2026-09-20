@@ -1,0 +1,25 @@
+{
+  "id": "g04",
+  "config": "A_dense",
+  "query_type": "cross_doc",
+  "question": "How does a Band 6 writer differ from a Band 7 writer in IELTS Writing?",
+  "expected_answer": "A Band 6 writer can produce relevant ideas that they can generally arrange coherently, while a Band 7 writer expresses clearer ideas with a greater degree of control and some precision.",
+  "expected_context": "For example, a student with a band 6 in Writing may produce relevant ideas they can generally arrange coherently. By contrast, a band 7 writer should be able to express clearer ideas with a greater degree of control and some precision.",
+  "answer": "A Band 6 writer in the IELTS Writing test may produce relevant ideas that are generally arranged coherently, but lacks the clarity and precision expected at higher levels. In contrast, a Band 7 writer is able to express clearer ideas with a greater degree of control and some precision. Additionally, the jump from band 6 to 7 signifies a transition from functional to confident academic writing, where Band 7 writers can present structured arguments, provide evidence, and demonstrate a level of linguistic control that supports critical thinking, which is essential for academic tasks like coursework and essays [S3], [S2].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "The [IELTS Writing Band Descriptors (PDF 142 - 9 pages)](https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf \"Download the IELTS Writing band descriptors \\(PDF 142 - 9 pages\\)\") show that the jump from band 6 to 7 represents a move from functional to confident academic writing. Band 7 writers can present structured arguments, provide evidence, and demonstrate a level of linguistic control that supports critical thinking – all vital for coursework, essays and research writing.",
+    "A small difference in score can represent a substantial gap in readiness. For example, a student with a band 6 in Writing may produce relevant ideas they can generally arrange coherently. By contrast, a band 7 writer should be able to express clearer ideas with a greater degree of control and some precision. In Speaking, the distinction might be between being able to express opinions and being able to develop arguments."
+  ],
+  "context_ids": [
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-19",
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-10"
+  ],
+  "scores": [
+    0.7516576647758484,
+    0.6887152791023254
+  ],
+  "context_hit": true,
+  "latency_ms": 1920.5340000044089,
+  "trace_error": null
+}

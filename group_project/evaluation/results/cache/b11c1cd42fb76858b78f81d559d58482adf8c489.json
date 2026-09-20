@@ -1,0 +1,22 @@
+{
+  "id": "g10",
+  "config": "A_dense",
+  "query_type": "cross_lingual",
+  "question": "Bài IELTS Writing Task 1 (Academic) cần viết tối thiểu bao nhiêu từ và trong bao lâu?",
+  "expected_answer": "Task 1 Academic cần viết tối thiểu 150 từ trong khoảng 20 phút.",
+  "expected_context": "In Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.",
+  "answer": "Bài IELTS Writing Task 1 (Academic) cần viết tối thiểu 150 từ và trong khoảng 20 phút [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "## What’s in the IELTS Academic Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes."
+  ],
+  "context_ids": [
+    "news/C03_ielts_academic_writing_format.md::chunk-2"
+  ],
+  "scores": [
+    0.6243650913238525
+  ],
+  "context_hit": true,
+  "latency_ms": 1452.8964000055566,
+  "trace_error": null
+}

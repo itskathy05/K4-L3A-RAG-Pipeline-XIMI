@@ -1,0 +1,16 @@
+{
+  "id": "g15",
+  "config": "A_dense",
+  "query_type": "out_of_domain",
+  "question": "TOEFL Writing được chấm theo thang điểm nào?",
+  "expected_answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+  "expected_context": "(no supporting context exists in the corpus -- corpus chi ve IELTS, khong co TOEFL)",
+  "answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+  "retrieval_source": "none",
+  "contexts": [],
+  "context_ids": [],
+  "scores": [],
+  "context_hit": null,
+  "latency_ms": 4190.38859999273,
+  "trace_error": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "g16",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What does the Lexical Resource criterion assess in IELTS Writing?",
+  "expected_answer": "Lexical Resource assesses the range of general words used, the adequacy and appropriacy of vocabulary, the precision of word choice, and the control of collocations and idiomatic expressions.",
+  "expected_context": "The LR criterion assesses:\nthe range of general words used (e.g. the use of synonyms to avoid repetition).\nthe adequacy and appropriacy of the vocabulary (e.g. topic-specific items,\nindicators of writer's attitude).\nthe precision of word choice and expression.\nthe control and use of collocations, idiomatic expressions and sophisticated\nphrasing.",
+  "answer": "The Lexical Resource criterion in IELTS Writing assesses the range and accuracy of vocabulary used by the test taker. It evaluates how well the candidate employs vocabulary to convey precise meaning and how effectively they use a variety of words and phrases in their writing [S3], [S2].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "### Marking\nCertificated IELTS IELTS examiners assess your performance on each Writing task. There are four assessment criteria:\n• Task achievement/response\n• Coherence and cohesion\n• Lexical resource\n• Grammatical range and accuracy.\n**Task achievement** (in Task 1) and **Task response** (in Task 2) assesses how accurately, appropriately and relevantly your response covers the task requirements, using the a minimum of 150 words for Task 1 and 250 words for Task 2.",
+    "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-4",
+    "news/C03_ielts_academic_writing_format.md::chunk-4"
+  ],
+  "scores": [
+    0.623242974281311,
+    0.6174765825271606
+  ],
+  "context_hit": false,
+  "latency_ms": 1402.798700000858,
+  "trace_error": null
+}

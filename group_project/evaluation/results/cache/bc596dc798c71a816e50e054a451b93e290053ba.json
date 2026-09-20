@@ -1,0 +1,22 @@
+{
+  "id": "g05",
+  "config": "B_hybrid",
+  "query_type": "keyword_heavy",
+  "question": "Which IELTS Writing band descriptor mentions using a range of cohesive devices appropriately although there may be some under- or over-use?",
+  "expected_answer": "Band 7 for Coherence and Cohesion requires logically organising information and ideas with a clear progression, and using a range of cohesive devices appropriately, although there may be some under- or over-use.",
+  "expected_context": "According to the public version of IELTS Writing Band Descriptors, to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some u",
+  "answer": "The IELTS Writing band descriptor that mentions using a range of cohesive devices appropriately, although there may be some under- or over-use, is found in Document 1. It states that to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, and use a range of cohesive devices appropriately, despite some potential under- or over-use [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    ". According to the [public version of IELTS Writing Band Descriptors](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail \"Learn how IELTS scoring works in detail\") to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some under-/over-use, and present a clear central topic within each paragraph."
+  ],
+  "context_ids": [
+    "news/A04_how_to_teach_paragraph_level_cohesion.md::chunk-3"
+  ],
+  "scores": [
+    0.03252247488101534
+  ],
+  "context_hit": false,
+  "latency_ms": 2348.9226999954553,
+  "trace_error": null
+}

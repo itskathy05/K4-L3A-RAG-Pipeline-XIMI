@@ -1,0 +1,25 @@
+{
+  "id": "g01",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What are the four assessment criteria used to mark IELTS Writing Task 2?",
+  "expected_answer": "Writing Task 2 is marked on Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy.",
+  "expected_context": "For Task 2 of both the AC and GT Writing tests, the key criteria are:\n▪  Task Response\n▪  Coherence and Cohesion\n▪  Lexical Resource\n▪  Grammatical Range and Accuracy",
+  "answer": "The four assessment criteria used to mark IELTS Writing Task 2 are:\n\n1. Task achievement/response\n2. Coherence and cohesion\n3. Lexical resource\n4. Grammatical range and accuracy [S1], [S2].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "### Marking\nCertificated IELTS IELTS examiners assess your performance on each Writing task. There are four assessment criteria:\n• Task achievement/response\n• Coherence and cohesion\n• Lexical resource\n• Grammatical range and accuracy.\n**Task achievement** (in Task 1) and **Task response** (in Task 2) assesses how accurately, appropriately and relevantly your response covers the task requirements, using the a minimum of 150 words for Task 1 and 250 words for Task 2.",
+    "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-4",
+    "news/C03_ielts_academic_writing_format.md::chunk-4"
+  ],
+  "scores": [
+    0.7515065670013428,
+    0.7466772198677063
+  ],
+  "context_hit": false,
+  "latency_ms": 4007.5778999889735,
+  "trace_error": null
+}

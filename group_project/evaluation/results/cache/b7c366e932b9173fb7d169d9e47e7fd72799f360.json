@@ -1,0 +1,28 @@
+{
+  "id": "g18",
+  "config": "B_hybrid",
+  "query_type": "cross_doc",
+  "question": "Why is it important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions?",
+  "expected_answer": "Because Writing and Speaking are the productive skills that are hardest for universities to judge yet are the strongest predictors of student success; setting entry scores too low means students may struggle to meet the linguistic demands of their course.",
+  "expected_context": "For universities, interpreting English language test scores is a critical task - it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking - known as the productive skills - are often the most challenging for universities to judge, yet they are also the strongest predictors of success.",
+  "answer": "It is important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions because these scores significantly influence who enters their programs, how well these students perform, and how they contribute to the academic community. The productive skills of Writing and Speaking are often the most challenging to assess, yet they are strong predictors of student success. A deeper understanding of what each band score represents allows universities to set appropriate minimum entry scores, identify students who may need additional support, and ensure fairness across departments. This informed approach ultimately supports better decision-making and enhances student success once admitted [S3], [S4], [S2].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "Understanding what each band score represents for the Writing and Speaking skills in practice helps institutions make fairer, more accurate admissions decisions. It also enables them to see where targeted support is needed most.",
+    "Date Published\n03 December 2025\nFor universities, interpreting English language test scores is a critical task – it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking – known as the productive skills – are often the most challenging for universities to judge, yet they are also the strongest predictors of success.",
+    "Being able to interpret what each band means in practical, academic terms allows universities to:\n* set appropriate minimum entry scores per skill\n* identify students who may require additional support\n* ensure consistency and fairness across departments.  \nAs the research above showed, this deeper understanding of how language ability maps to academic performance supports better decision-making and helps students succeed once admitted."
+  ],
+  "context_ids": [
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-6",
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-2",
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-13"
+  ],
+  "scores": [
+    0.03225806451612903,
+    0.03125763125763126,
+    0.03125
+  ],
+  "context_hit": false,
+  "latency_ms": 1739.5108000055188,
+  "trace_error": null
+}

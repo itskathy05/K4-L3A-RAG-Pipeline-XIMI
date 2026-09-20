@@ -1,10 +1,18 @@
-# Day 8 — RAG Pipeline
+# IELTS Writing RAG Chatbot
 
 ## Mục tiêu
 
-Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài liệu do nhóm thu thập. Sản phẩm phải có hybrid retrieval, citation, giao diện chat và báo cáo đánh giá.
+Chatbot RAG trả lời câu hỏi về **IELTS Writing** (band descriptors, key assessment criteria, test format) dựa trên bộ tài liệu tự thu thập từ ielts.org. Sản phẩm có hybrid retrieval (dense + BM25 + RRF), fallback vectorless khi câu hỏi ngoài phạm vi, generation có citation, giao diện chat 3 tab (Chat / Inspector / Evaluation), và báo cáo đánh giá A/B.
 
-Nhóm tự chọn bài toán và thu thập dữ liệu phù hợp; repo không cung cấp dữ liệu mẫu.
+## Kiến trúc & quyết định kỹ thuật chính
+
+- **Corpus:** 3 tài liệu chính sách (band descriptors PDF, key assessment criteria PDF, academic writing sample tasks PDF) + 8 bài viết ielts.org, tất cả tiếng Anh. Nguồn liệt kê tại `data/ielts_writing_urls.csv`.
+- **Embedding:** `text-embedding-3-small` qua OpenAI API (`EMBEDDING_PROVIDER=openai`). Đã kiểm chứng thủ công: câu hỏi tiếng Việt vẫn truy hồi đúng nội dung tiếng Anh (cross-lingual retrieval hoạt động tốt dù không dùng model `-large`).
+- **Chunking:** hai nhánh. Band descriptors (PDF bị `markitdown` làm nát cấu trúc bảng 4 cột) được tách riêng theo từng mức band (Band 9→4, thấp hơn gộp chung) thay vì cắt mù 500 ký tự — xem `src/task4_chunking_indexing.py::_chunk_band_descriptor_document`. Tài liệu thường dùng `MarkdownHeaderTextSplitter` + `RecursiveCharacterTextSplitter`.
+- **BM25:** tokenizer Unicode (`\w+` + bản bỏ dấu) để chịu được câu hỏi tiếng Việt, dù corpus hiện tại toàn tiếng Anh.
+- **Fallback (Task 8):** mặc định `PAGEINDEX_MODE=local` — tự dựng "vectorless tree retriever" (parse heading `data/standardized/**/*.md`, LLM chọn node liên quan) thay vì gọi PageIndex SaaS trả phí. Lý do: rubric chỉ yêu cầu đúng contract (`retrieval_method="pageindex"`, không crash khi lỗi), không bắt buộc dùng đúng vendor; một dịch vụ ngoài chưa kiểm chứng response shape là điểm chết tiềm ẩn khi demo. `PAGEINDEX_MODE=api` giữ đường dẫn cho SDK thật.
+- **Threshold:** hiệu chỉnh bằng `scripts/calibrate_threshold.py` trên 16 câu in-domain (golden dataset) và 10 câu out-of-domain/near-miss thật. Kết quả: `SCORE_THRESHOLD=0.58` (TPR=1.0, TNR=0.7 — xem `reports/threshold_calibration.json`).
+- **Observability:** `src/trace.py` dùng `ContextVar` để các hàm retrieval/generation ghi lại từng bước (dense results, BM25 results, RRF rank movement, fallback decision, reorder, context, citation) mà **không** thêm tham số vào các hàm đã bị `tests/test_contracts.py` pin chữ ký. `src/observability.py::answer_with_trace()` là điểm hội tụ duy nhất giữa UI và eval harness — không bao giờ raise.
 
 ## Sản phẩm phải nộp
 
@@ -27,33 +35,30 @@ python -m playwright install chromium
 cp .env.example .env
 ```
 
-Điền API key cần dùng trong `.env`; không commit file này.
+Điền API key cần dùng trong `.env`; không commit file này. `.env` cần tối thiểu `OPENAI_API_KEY` (dùng chung cho embedding, generation và RAGAS judge với cấu hình mặc định).
 
 ```bash
-# 1. Thu thập và chuẩn hoá
+# 1. Thu thập và chuẩn hoá (idempotent — bỏ qua file đã tồn tại)
 python -m src.task1_collect_legal_docs
 python -m src.task2_crawl_news
 python -m src.task3_convert_markdown
 
-# 2. Index và kiểm tra contract
+# 2. Index (chunk + embed qua OpenAI + upsert Chroma)
 python -m src.task4_chunking_indexing
+
+# 3. Hiệu chỉnh lại threshold nếu đổi corpus/embedding model
+python scripts/calibrate_threshold.py    # ghi kết quả vào reports/threshold_calibration.json
+
+# 4. Kiểm tra
 pytest -q
 
-# 3. Chạy sản phẩm
+# 5. Chạy sản phẩm (3 tab: Chat / Inspector / Evaluation)
 streamlit run app.py
+
+# 6. Evaluation A/B (dense-only vs hybrid+RRF), tốn vài cent OpenAI API
+python -m src.eval_runner --config both
+python -m src.eval_report --check
 ```
-
-## Lộ trình 3 giờ
-
-| Mốc                  | Thời gian | Kết quả cần có                           |
-| -------------------- | --------: | ---------------------------------------- |
-| 0. Setup             |   10 phút | Môi trường và `.env` sẵn sàng            |
-| 1. Data              |   25 phút | ≥3 legal, ≥5 news, Markdown đã chuẩn hoá |
-| 2. Index & search    |   30 phút | ChromaDB, dense search và BM25 chạy được |
-| 3. Fusion & fallback |   25 phút | RRF và fallback tuân thủ contract        |
-| 4. Generation & UI   |   30 phút | Chatbot trả lời có citation              |
-| 5. Evaluation        |   30 phút | 15+ Q&A, 4 metric, A/B comparison        |
-| 6. Demo & handoff    |   30 phút | Test, report, demo và push repository    |
 
 ## Lưu ý quy tắc để có code quality tốt:
 

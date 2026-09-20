@@ -1,0 +1,25 @@
+{
+  "id": "g11",
+  "config": "A_dense",
+  "query_type": "cross_lingual",
+  "question": "IELTS Writing Task 2 có mấy tiêu chí chấm điểm và đó là những tiêu chí nào?",
+  "expected_answer": "Task 2 có 4 tiêu chí: Task Response, Coherence and Cohesion, Lexical Resource, và Grammatical Range and Accuracy.",
+  "expected_context": "For Task 2 of both the AC and GT Writing tests, the key criteria are:\n▪  Task Response\n▪  Coherence and Cohesion\n▪  Lexical Resource\n▪  Grammatical Range and Accuracy",
+  "answer": "IELTS Writing Task 2 có bốn tiêu chí chấm điểm, đó là: \n\n1. Coherence and Cohesion\n2. Lexical Resource\n3. Grammatical Range and Accuracy\n4. Task Response\n\nCác tiêu chí này áp dụng cho cả Task 1 và Task 2 trong cả hai mô hình Academic và General Training [S1], [S3].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "Page 7 of 26  \nIELTS.org  \nSample Candidate Writing Scripts and Examiner\nComments  \nBoth the Academic and General Training Writing\nModules consist of two tasks, Task 1 and Task 2.\nEach task is assessed independently. The\nassessment of Task 2 carries more weight in\nmarking than Task 1.  \nDetailed performance descriptors have been\ndeveloped which describe written performance at\nthe 9 IELTS bands. These descriptors apply to\nboth the Academic and General Training\nModules.",
+    "Ideas should be supported by evidence, and\nexamples may be drawn from a candidate’s\nown experience.  \nThe other criteria for Task 2 are the same as\nfor Task 1 (Coherence and Cohesion, Lexical\nResource, Grammatical Range and Accuracy).  \nWriting responses are marked by trained and\ncertificated IELTS examiners. Scores may be\nreported as whole bands or half-bands.  \nOn the next 17 pages you will find candidates’\nanswers to five sample Writing tasks. There\nare answers for each Writing task. Each"
+  ],
+  "context_ids": [
+    "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-11",
+    "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-17"
+  ],
+  "scores": [
+    0.593152642250061,
+    0.5799771547317505
+  ],
+  "context_hit": false,
+  "latency_ms": 1461.6646000067703,
+  "trace_error": null
+}

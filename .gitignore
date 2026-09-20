@@ -38,6 +38,12 @@ htmlcov/
 # Temp PDF conversion cache
 data/_tmp_pdf/
 
+# Vector DB persisted locally; rebuild via `python -m src.task4_chunking_indexing`
+chroma_db/
+
+# Local index artifacts (chunks mirror, embedding cache, pageindex tree)
+data/index/
+
 # Temp / cache
 .pytest_cache/
 *.tmp

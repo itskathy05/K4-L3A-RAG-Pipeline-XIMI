@@ -1,0 +1,25 @@
+{
+  "id": "g13",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What kind of task is IELTS General Training Writing Task 1?",
+  "expected_answer": "General Training Writing Task 1 asks you to respond to a situation by writing a letter, for example asking for information or explaining a situation, in at least 150 words in about 20 minutes.",
+  "expected_context": "In Task 1, you have to respond to a situation by writing a letter, for example, asking for information or explaining a situation. You need to write at least 150 words in about 20 minutes.",
+  "answer": "IELTS General Training Writing Task 1 requires you to respond to a situation by writing a letter. The letter can be personal, semi-formal, or formal in style, depending on the task. You need to write at least 150 words and typically have about 20 minutes to complete it. The task will provide specific information to include in the form of three bullet points [S1], [S3].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "## What’s in the IELTS General Training Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to **respond to a situation by writing a letter** , for example, asking for information or explaining a situation. You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given **a point of view, argument or problem which you need to discuss**. You need to write at least 250 words in about 40 minutes.",
+    "### Writing tasks 1 and 2\n##### Task 1\n#### What's involved?\nIn General Training Writing Task 1, you are given a situation and you need to write a response of at least 150 words in the form of a letter. Depending on the task, the letter may be personal, semi-formal or formal in style. The task tells you what information to include in the form of three bullet points."
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-2",
+    "news/C04_ielts_general_training_writing_format.md::chunk-9"
+  ],
+  "scores": [
+    0.7803865075111389,
+    0.7290093302726746
+  ],
+  "context_hit": false,
+  "latency_ms": 1571.7754999932367,
+  "trace_error": null
+}

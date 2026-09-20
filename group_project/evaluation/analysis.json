@@ -1,0 +1,44 @@
+{
+  "generator_model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small (OpenAI API)",
+  "corpus_commit": "uncommitted at eval time (base 6a2a2d4 + local implementation on feat/standalone_ver)",
+  "threshold_note": "SCORE_THRESHOLD=0.58, calibrated via scripts/calibrate_threshold.py tren 16 cau in-domain (golden dataset) + 10 cau out-of-domain/near-miss that. TPR=1.0 (giu het cau in-domain), TNR=0.7 (3/10 near-miss OOD van vuot threshold vi cac ky nang IELTS/TOEFL dung chung nhieu tu vung). Xem reports/threshold_calibration.json.",
+  "better_config": "Config B (hybrid + RRF). Trung binh 4 metric: A=0.790 vs B=0.874 (delta +0.084), va thang deu tren ca 4 metric rieng le (faithfulness +0.091, answer_relevancy -0.003 (khong dang ke), context_recall +0.125, context_precision +0.125).",
+  "ab_evidence": "Lan chay dau tien (truoc khi sua loi citation-repair) cho ket qua nguoc: A=0.774 vs B=0.449, vi 4/18 cau o Config B bi ha xuong safe refusal toan phan (0 diem ca 4 metric) chi vi cau tra loi thieu marker [Sn], du chunk lay ve dung. Sau khi them buoc 'thu lai mot lan voi yeu cau ro rang truoc khi tu choi' (task10_generation.py::_generate_impl, doan retry citation), ket qua dao nguoc thanh B thang A ro rang -- dung voi ky vong ly thuyet la RRF ket hop BM25 giup context_recall/precision tot hon dense-only, dac biet o cau keyword-heavy va cross-lingual. Day la mot bai hoc quan trong: so lieu A/B ban dau gan nhu chac chan sai neu khong kiem tra tung ca that bai thay vi chi nhin trung binh -- 4 ca '0 diem tuyet doi' la dau hieu ro rang cua loi generation-layer, khong phai retrieval-layer.",
+  "ab_tradeoff_note": "Latency Config B thap hon nhe (1718ms vs 1786ms/cau trung binh) -- RRF va BM25 chay tren corpus nho (272 chunk) gan nhu khong ton chi phi dang ke so voi thoi gian goi LLM generation (chiem phan lon latency o ca hai config). Khong co trade-off latency dang ke; Config B thang ca chat luong lan latency tren corpus nay.",
+  "worst_performers": {
+    "g11": {
+      "failure_stage": "retrieval+generation",
+      "root_cause": "Cau hoi cross-lingual ve 4 tieu chi Task 2. RRF/BM25 keo ve chunk tu C06 (Sample Tasks, cau 'The other criteria for Task 2 are the same as for Task 1 (Coherence and Cohesion, Lexical Resource, Grammatical Range and Accuracy)') thay vi chunk chinh tac C02 liet ke day du '4 tieu chi'. Chunk C06 KHONG neu ten 'Task Response' tuong minh (chi noi 'giong Task 1' -- ma Task 1 lai la 'Task Achievement', khac Task 2). LLM tu dien vao 'Task Response' tu kien thuc nen (dung ve mat su that nhung KHONG co can cu trong context duoc cung cap) -> RAGAS Faithfulness cham dung la 0.0 vi day la claim khong duoc ho tro boi context. Day la mot phat hien retrieval that su (chon nham chunk lien quan gan nhung khong day du), khong phai loi citation-format nhu lan cham truoc."
+    },
+    "g12": {
+      "failure_stage": "retrieval",
+      "root_cause": "Cau hoi ve C01 (band descriptor PDF bi markitdown lam nat cau truc bang 4 cot khi convert -- xem _chunk_band_descriptor_document trong task4_chunking_indexing.py). context_recall=0.0 nghia la RRF khong keo dung chunk Band 9 mong doi ve top-k, du context_precision gan 1.0 (nhung gi lay duoc thi lien quan). Nguyen nhan co the: van ban chunk band descriptor da bi tron cot nen embedding va BM25 deu kho khop chinh xac voi cau hoi dung thuat ngu 'Band 9'."
+    },
+    "g08": {
+      "failure_stage": "generation",
+      "root_cause": "Context_recall=0.5, faithfulness=0.6 -- context lay ve mot phan dung (tu A01) nhung cau tra loi cua LLM co the da paraphrase hoi xa noi dung goc hoac bo sot mot phan cua 4 tieu chi khi dien giai, khien statement-level NLI check cua RAGAS Faithfulness khong khop het."
+    }
+  },
+  "recommendations": [
+    {
+      "action": "Giu co che 'thu lai mot lan voi yeu cau citation ro rang truoc khi tu choi' da them vao _generate_impl() (task10_generation.py) thay vi ha thang xuong safe refusal khi khong tim thay marker [Sn] nao trong lan goi dau.",
+      "evidence": "Truoc khi them: 4/18 cau bi 0 diem tuyet doi ca 4 metric o Config B chi vi thieu dinh dang citation, lam dao nguoc hoan toan ket luan A/B (B tro nen te hon A mot cach gia tao). Sau khi them: B thang A ro rang tren ca 4 metric, dung voi ky vong ly thuyet.",
+      "expected_impact": "Metric phan anh dung chat luong retrieval/generation that su thay vi bi chi phoi boi mot loi dinh dang o tang sinh cau tra loi.",
+      "how_to_verify": "So sanh group_project/evaluation/results/raw_B_hybrid.json truoc/sau: dem so ca retrieval_source='none' va so ca 0 diem tuyet doi ca 4 metric."
+    },
+    {
+      "action": "Voi cau hoi ve nhieu tieu chi cung ten nhung khac ngu canh (vd 'Task Response' cua Task 2 vs 'Task Achievement' cua Task 1), tang fetch_k truoc RRF (hien la top_k*2) va uu tien chunk tu tai lieu 'key assessment criteria' (C02) hon chunk tu 'sample tasks' (C06) khi ca hai cung xuat hien, vi C02 la nguon chinh tac liet ke day du tieu chi con C06 chi nhac lai luot qua.",
+      "evidence": "g11: RRF chon chunk C06 (nhac luot) thay vi C02 (liet ke day du), khien LLM phai tu dien them 'Task Response' tu kien thuc nen -> faithfulness=0.0.",
+      "expected_impact": "Giam so lan LLM phai suy dien ngoai context cho cau hoi lien quan toi danh sach tieu chi cham diem.",
+      "how_to_verify": "Chay lai g11 qua Config B sau khi tang fetch_k, kiem tra context_ids co bao gom chunk C02 hay khong va faithfulness co len 1.0 khong."
+    },
+    {
+      "action": "Voi band descriptor (C01), thu them mot bien the metadata 'band_number' rieng (vd '9') ngoai section_path hien tai, va cho BM25 index them alias 'Band {N}' de tang kha nang khop tu khoa chinh xac.",
+      "evidence": "g12: context_recall=0.0 cho cau hoi ve Band 9 du chunk Band 9 da duoc tach rieng dung trong task4 (xem _chunk_band_descriptor_document), tuc van de nam o khau retrieve/rank chu khong phai khau chunk.",
+      "expected_impact": "Tang context_recall cho nhom cau hoi ve band descriptor cu the, la nhom chiem 1/3 golden dataset dang co diem thap nhat (g09/g11/g12 deu thuoc nhom nay hoac lien quan).",
+      "how_to_verify": "Them field band_number vao metadata, chay lai eval_runner va so sanh context_recall rieng cho nhom cau hoi ve band descriptor."
+    }
+  ],
+  "bonus_experiments": []
+}

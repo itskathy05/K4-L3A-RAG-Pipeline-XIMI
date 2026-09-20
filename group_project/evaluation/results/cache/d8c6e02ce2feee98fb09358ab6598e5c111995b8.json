@@ -1,0 +1,22 @@
+{
+  "id": "g14",
+  "config": "A_dense",
+  "query_type": "out_of_domain",
+  "question": "How many sections does the IELTS Listening test have and how long does it take?",
+  "expected_answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+  "expected_context": "(no supporting context exists in the corpus -- corpus chi thu thap tai lieu ve IELTS Writing, khong co Listening)",
+  "answer": "The IELTS Listening test has one section and it takes approximately 30 minutes, plus an additional 10 minutes to transfer your answers to an answer sheet [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "### Learn about the other sections of the test\n[![IELTS Listening test icon red](https://ielts.org/cdn/ielts-ui-and-design/ielts-icons/ielts-listening-test-icon-red.webp?fit=cover&height=229&width=229&s=Mo2RHPbwqExP_K0p9PiQh6Qq0bfLYcrMNwZiQ_gk4W0)Listening](https://ielts.org/take-a-test/test-types/ielts-general-training-test/ielts-general-training-format-listening)\nTime allowed: Approximately 30 minutes (plus 10 minutes to transfer your answers to an answer sheet)"
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-21"
+  ],
+  "scores": [
+    0.7304145097732544
+  ],
+  "context_hit": null,
+  "latency_ms": 1126.2282000097912,
+  "trace_error": null
+}

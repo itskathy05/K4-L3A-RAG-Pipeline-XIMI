@@ -1,0 +1,22 @@
+{
+  "id": "g06",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What does the Task Achievement criterion assess in Academic Writing Task 1?",
+  "expected_answer": "Task Achievement assesses the ability to summarise the information provided in the diagram by selecting key features, providing sufficient detail, reporting information/figures/trends accurately, and comparing or contrasting the information.",
+  "expected_context": "The TA criterion assesses the ability to summarise the information provided in the\ndiagram by:\n▪  selecting key features of the information.\n▪  providing sufficient detail to illustrate these features.\n▪  reporting the information, figures and trends accurately.\n▪  comparing or contrasting the information by adequately highlighting the\nidentifiable trends, principal cha",
+  "answer": "The Task Achievement criterion in Academic Writing Task 1 assesses how fully, appropriately, accurately, and relevantly the response fulfills the requirements set out in the task, using a minimum of 150 words [S5].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "▪  Grammatical Range and Accuracy  \nCandidates should note that scripts may be penalised if they are a) partly or wholly\nplagiarised, b) not written as full, connected text (e.g. using bullet points in any part of\nthe response, or note form, is not appropriate, etc.).  \nTask 1  \nTASK ACHIEVEMENT (TA)  \nFor Task 1 of both AC and GT Writing tests, this criterion assesses how fully,\nappropriately, accurately and relevantly the response fulfils the requirements set out"
+  ],
+  "context_ids": [
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-2"
+  ],
+  "scores": [
+    0.6335539817810059
+  ],
+  "context_hit": false,
+  "latency_ms": 1318.6894999962533,
+  "trace_error": null
+}

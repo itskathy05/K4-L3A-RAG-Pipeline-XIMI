@@ -1,0 +1,25 @@
+{
+  "id": "g12",
+  "config": "B_hybrid",
+  "query_type": "in_domain",
+  "question": "What must a Band 9 response demonstrate for coherence and cohesion in Writing Task 1?",
+  "expected_answer": "A Band 9 response has only extremely rare lapses in coherence or cohesion, uses cohesion in a way that very rarely attracts attention, and manages paragraphing skilfully.",
+  "expected_context": "9 Any lapses in coherence or cohesion are  sophisticated control of lexical features. appropriately throughout.\nminimal.\nParagraphing is skilfully managed.",
+  "answer": "A Band 9 response in Writing Task 1 must demonstrate a high level of coherence and cohesion by logically organizing information and ideas, ensuring a clear progression throughout the response. The use of a wide range of cohesive devices should be appropriate and effective, contributing to the clarity of relationships between and within sentences. Additionally, each paragraph should present a clear central topic, and the overall structure must support the logical development of the message without any noticeable errors or lapses in coherence or cohesion [S1], [S5].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "Task 1 and Task 2  \nCOHERENCE AND COHESION (CC)  \nThis criterion is concerned with the overall organisation and logical development of\nthe message: how the response organises and links information, ideas and language.  \nCoherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjunctions and pronouns) to assist in making clear the relationships between and\nwithin sentences.",
+    "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+  ],
+  "context_ids": [
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-8",
+    "news/C03_ielts_academic_writing_format.md::chunk-4"
+  ],
+  "scores": [
+    0.029631255487269532,
+    0.016129032258064516
+  ],
+  "context_hit": false,
+  "latency_ms": 1600.1329999999143,
+  "trace_error": null
+}

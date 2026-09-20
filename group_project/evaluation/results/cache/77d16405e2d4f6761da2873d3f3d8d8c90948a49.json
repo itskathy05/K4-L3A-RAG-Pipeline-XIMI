@@ -1,0 +1,22 @@
+{
+  "id": "g09",
+  "config": "A_dense",
+  "query_type": "cross_lingual",
+  "question": "Band 7 của tiêu chí Coherence and Cohesion trong IELTS Writing yêu cầu những gì?",
+  "expected_answer": "Band 7 yêu cầu tổ chức thông tin và ý tưởng một cách logic, có sự tiến triển rõ ràng, và sử dụng hợp lý các phương tiện liên kết (cohesive devices) dù vẫn có thể còn dùng thiếu hoặc lạm dụng.",
+  "expected_context": "According to the public version of IELTS Writing Band Descriptors, to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some u",
+  "answer": "Band 7 của tiêu chí Coherence and Cohesion trong IELTS Writing yêu cầu thí sinh phải tổ chức thông tin và ý tưởng một cách hợp lý, có sự tiến triển rõ ràng trong toàn bài, sử dụng một loạt các thiết bị liên kết một cách phù hợp mặc dù có thể có sự sử dụng quá mức hoặc thiếu hụt, và trình bày một chủ đề trung tâm rõ ràng trong mỗi đoạn văn [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    ". According to the [public version of IELTS Writing Band Descriptors](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail \"Learn how IELTS scoring works in detail\") to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some under-/over-use, and present a clear central topic within each paragraph."
+  ],
+  "context_ids": [
+    "news/A04_how_to_teach_paragraph_level_cohesion.md::chunk-3"
+  ],
+  "scores": [
+    0.6966531276702881
+  ],
+  "context_hit": false,
+  "latency_ms": 1600.8100000035483,
+  "trace_error": null
+}

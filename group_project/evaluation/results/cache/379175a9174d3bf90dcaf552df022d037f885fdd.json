@@ -1,0 +1,31 @@
+{
+  "id": "g17",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What does the Grammatical Range and Accuracy criterion assess?",
+  "expected_answer": "It assesses the range and appropriacy of structures used (simple, compound, complex sentences), the accuracy of those structures, and the accurate and appropriate use of punctuation.",
+  "expected_context": "GRAMMATICAL RANGE AND ACCURACY (GRA)\nThis criterion refers to the range and accurate use of the candidate's grammatical\nresource via the candidate's writing at sentence level.\nThe GRA criterion assesses:\nthe range and appropriacy of structures used in a given response (e.g. simple,\ncompound and complex sentences).\nthe accuracy of simple, compound and complex s",
+  "answer": "The Grammatical Range and Accuracy criterion assesses the range of grammar used by the candidate and how accurately and appropriately it has been applied in their writing. It evaluates the variety of grammatical structures employed, including simple, compound, and complex sentences, as well as the accuracy of these structures and the impact of any grammatical errors on communication [S1], [S3], [S5], [S4].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "**Grammatical range and accuracy** assesses the range of grammar you have used and how accurately and appropriately you have used it.",
+    "▪\n▪  \n▪\n▪  \n▪\n▪\n▪  \nGRAMMATICAL RANGE AND ACCURACY (GRA)  \nThis criterion refers to the range and accurate use of the candidate’s grammatical\nresource via the candidate’s writing at sentence level.  \nThe GRA criterion assesses:  \n▪  \n▪\n▪\n▪  \nthe range and appropriacy of structures used in a given response (e.g. simple,\ncompound and complex sentences).\nthe accuracy of simple, compound and complex sentences.\nthe density and communicative effect of grammatical errors.",
+    "task.  \nGrammatical Range and Accuracy  \nThis criterion refers to the range and accurate\nuse of the candidate’s grammatical resource\nwithin the candidate’s writing at sentence level.  \nTask 2  \nTask Response  \nBoth the Academic and General Training\nWriting Task 2 require the candidates to\nformulate and develop a position in relation to\na given prompt in the form of a question or\nstatement, using a minimum of 250 words.\nIdeas should be supported by evidence, and",
+    "* **Grammatical range and accuracy** - How many grammatical structures you used accurately and appropriately.  \nEach of these criteria is worth 25 percent of your total score for the essay writing task. Both of your writing tasks are used to calculate your overall writing band score."
+  ],
+  "context_ids": [
+    "news/C03_ielts_academic_writing_format.md::chunk-7",
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-12",
+    "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-16",
+    "news/A01_10_steps_to_writing_high_scoring_ielts_essays.md::chunk-5"
+  ],
+  "scores": [
+    0.8329232931137085,
+    0.73844313621521,
+    0.639281153678894,
+    0.6390904784202576
+  ],
+  "context_hit": false,
+  "latency_ms": 1481.2447000003885,
+  "trace_error": null
+}

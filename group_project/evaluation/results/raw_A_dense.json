@@ -1,0 +1,538 @@
+[
+  {
+    "id": "g01",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What are the four assessment criteria used to mark IELTS Writing Task 2?",
+    "expected_answer": "Writing Task 2 is marked on Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy.",
+    "expected_context": "For Task 2 of both the AC and GT Writing tests, the key criteria are:\n▪  Task Response\n▪  Coherence and Cohesion\n▪  Lexical Resource\n▪  Grammatical Range and Accuracy",
+    "answer": "The four assessment criteria used to mark IELTS Writing Task 2 are:\n\n1. Task achievement/response\n2. Coherence and cohesion\n3. Lexical resource\n4. Grammatical range and accuracy [S1], [S2].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "### Marking\nCertificated IELTS IELTS examiners assess your performance on each Writing task. There are four assessment criteria:\n• Task achievement/response\n• Coherence and cohesion\n• Lexical resource\n• Grammatical range and accuracy.\n**Task achievement** (in Task 1) and **Task response** (in Task 2) assesses how accurately, appropriately and relevantly your response covers the task requirements, using the a minimum of 150 words for Task 1 and 250 words for Task 2.",
+      "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+    ],
+    "context_ids": [
+      "news/C04_ielts_general_training_writing_format.md::chunk-4",
+      "news/C03_ielts_academic_writing_format.md::chunk-4"
+    ],
+    "scores": [
+      0.7515065670013428,
+      0.7466772198677063
+    ],
+    "context_hit": false,
+    "latency_ms": 4007.5778999889735,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8950295561472,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g02",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What is the minimum word count for the IELTS Academic Writing Task 1, and how much time is suggested for it?",
+    "expected_answer": "You need to write at least 150 words in about 20 minutes for Academic Writing Task 1.",
+    "expected_context": "In Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.",
+    "answer": "The minimum word count for the IELTS Academic Writing Task 1 is 150 words, and the suggested time to complete it is about 20 minutes [S1], [S3].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "## What’s in the IELTS Academic Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes.",
+      "in the task, using a minimum of 150 words.  \nPage 1 of 4  \nIELTS is jointly owned by the British Council; IDP IELTS; and  \nCambridge University Press & Assessment  \nIELTS.org  \nAcademic Writing Task 1  \nThis Writing task has a defined input and a largely predictable output. It is basically an\ninformation-transfer task, which relates narrowly to the factual content of a diagram,\ngraph, table, chart, map or other visual input, not to speculative explanations that lie\noutside the given data."
+    ],
+    "context_ids": [
+      "news/C03_ielts_academic_writing_format.md::chunk-2",
+      "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-3"
+    ],
+    "scores": [
+      0.7156912684440613,
+      0.660625696182251
+    ],
+    "context_hit": true,
+    "latency_ms": 1425.118500003009,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9156975437909661,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g03",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What is the minimum word count and suggested time for IELTS Academic Writing Task 2?",
+    "expected_answer": "You need to write at least 250 words in about 40 minutes for Academic Writing Task 2.",
+    "expected_context": "In Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes.",
+    "answer": "The minimum word count for IELTS Academic Writing Task 2 is 250 words, and the suggested time to complete this task is about 40 minutes [S1].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "## What’s in the IELTS Academic Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes."
+    ],
+    "context_ids": [
+      "news/C03_ielts_academic_writing_format.md::chunk-2"
+    ],
+    "scores": [
+      0.6920144557952881
+    ],
+    "context_hit": true,
+    "latency_ms": 1202.9022999922745,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9288393706644132,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "id": "g04",
+    "config": "A_dense",
+    "query_type": "cross_doc",
+    "question": "How does a Band 6 writer differ from a Band 7 writer in IELTS Writing?",
+    "expected_answer": "A Band 6 writer can produce relevant ideas that they can generally arrange coherently, while a Band 7 writer expresses clearer ideas with a greater degree of control and some precision.",
+    "expected_context": "For example, a student with a band 6 in Writing may produce relevant ideas they can generally arrange coherently. By contrast, a band 7 writer should be able to express clearer ideas with a greater degree of control and some precision.",
+    "answer": "A Band 6 writer in the IELTS Writing test may produce relevant ideas that are generally arranged coherently, but lacks the clarity and precision expected at higher levels. In contrast, a Band 7 writer is able to express clearer ideas with a greater degree of control and some precision. Additionally, the jump from band 6 to 7 signifies a transition from functional to confident academic writing, where Band 7 writers can present structured arguments, provide evidence, and demonstrate a level of linguistic control that supports critical thinking, which is essential for academic tasks like coursework and essays [S3], [S2].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "The [IELTS Writing Band Descriptors (PDF 142 - 9 pages)](https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf \"Download the IELTS Writing band descriptors \\(PDF 142 - 9 pages\\)\") show that the jump from band 6 to 7 represents a move from functional to confident academic writing. Band 7 writers can present structured arguments, provide evidence, and demonstrate a level of linguistic control that supports critical thinking – all vital for coursework, essays and research writing.",
+      "A small difference in score can represent a substantial gap in readiness. For example, a student with a band 6 in Writing may produce relevant ideas they can generally arrange coherently. By contrast, a band 7 writer should be able to express clearer ideas with a greater degree of control and some precision. In Speaking, the distinction might be between being able to express opinions and being able to develop arguments."
+    ],
+    "context_ids": [
+      "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-19",
+      "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-10"
+    ],
+    "scores": [
+      0.7516576647758484,
+      0.6887152791023254
+    ],
+    "context_hit": true,
+    "latency_ms": 1920.5340000044089,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.9440388621226786,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g05",
+    "config": "A_dense",
+    "query_type": "keyword_heavy",
+    "question": "Which IELTS Writing band descriptor mentions using a range of cohesive devices appropriately although there may be some under- or over-use?",
+    "expected_answer": "Band 7 for Coherence and Cohesion requires logically organising information and ideas with a clear progression, and using a range of cohesive devices appropriately, although there may be some under- or over-use.",
+    "expected_context": "According to the public version of IELTS Writing Band Descriptors, to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some u",
+    "answer": "The IELTS Writing band descriptor that mentions using a range of cohesive devices appropriately, although there may be some under- or over-use, is found in Document 4. It states that cohesive devices are used to some good effect but may be faulty or mechanical due to misuse, overuse, or omission [S4].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "7 precision in supporting ideas/material. reference and substitution is used flexibly but  An awareness of style and collocation is\nwith some inaccuracies or some over/under  evident, though inappropriaciesoccur. A few errors in grammar may persist, but\n| use. |     | these do not impede communication. |\n| ---- | --- | ---------------------------------- |\nThere are only a few errors in spelling\n| Paragraphing is generally used effectively to  | and/or word formation and they do not  |     |\n| ---------------------------------------------- | -------------------------------------- | --- |\n| support overall coherence, and the sequencing  | detract from overall clarity.          |     |\nof ideas within a paragraph is generally logical.\n\nWriting Task 2 Band Descriptors\nUpdated May 2023\nScoring criteria for Academic and General Training tests Please visit IELTS.org for updates\nPage 2\nA script must fully fit the positive features of the descriptor at a particular level. Bolded text indicates negative features that will limit a rating.\nde Task Response Coherence & Cohesion Lexical Resource Grammatical Range &\nnr\no\nac Accuracy\nBS\nThe main parts of the prompt are addressed (though some may be Information and ideas are generally arranged The resource is generally adequate and A mix of simple and complex sentence\nmore fully covered than others). An appropriate format is used. coherently and there is a clear overall appropriate for the task. forms is used but flexibility is limited.\nprogression.\nA position is presented that is directly relevant to the prompt, The meaning is generally clear in spite of a Examples of more complex structures are\nalthough the conclusions drawn may be unclear, unjustified or Cohesive devices are used to some good effect rather restricted range or a lack of not marked by the same level of accuracy\nrepetitive. but cohesion within and/or between sentences precision in word choice. as in simple structures.\nmay be faulty or mechanical due to misuse,\nMain ideas are relevant, but some may be insufficiently developed overuse or omission. If the writer is a risk-taker, there will be a Errors in grammar and punctuation occur,"
+    ],
+    "context_ids": [
+      "legal/C01_ielts_writing_band_descriptors.md::chunk-8"
+    ],
+    "scores": [
+      0.6548816561698914
+    ],
+    "context_hit": false,
+    "latency_ms": 2161.6120000107912,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.7142857142857143,
+      "answer_relevancy": 0.8426670960597221,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "id": "g06",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What does the Task Achievement criterion assess in Academic Writing Task 1?",
+    "expected_answer": "Task Achievement assesses the ability to summarise the information provided in the diagram by selecting key features, providing sufficient detail, reporting information/figures/trends accurately, and comparing or contrasting the information.",
+    "expected_context": "The TA criterion assesses the ability to summarise the information provided in the\ndiagram by:\n▪  selecting key features of the information.\n▪  providing sufficient detail to illustrate these features.\n▪  reporting the information, figures and trends accurately.\n▪  comparing or contrasting the information by adequately highlighting the\nidentifiable trends, principal cha",
+    "answer": "The Task Achievement criterion in Academic Writing Task 1 assesses how fully, appropriately, accurately, and relevantly the response fulfills the requirements set out in the task, using a minimum of 150 words [S5].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "▪  Grammatical Range and Accuracy  \nCandidates should note that scripts may be penalised if they are a) partly or wholly\nplagiarised, b) not written as full, connected text (e.g. using bullet points in any part of\nthe response, or note form, is not appropriate, etc.).  \nTask 1  \nTASK ACHIEVEMENT (TA)  \nFor Task 1 of both AC and GT Writing tests, this criterion assesses how fully,\nappropriately, accurately and relevantly the response fulfils the requirements set out"
+    ],
+    "context_ids": [
+      "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-2"
+    ],
+    "scores": [
+      0.6335539817810059
+    ],
+    "context_hit": false,
+    "latency_ms": 1318.6894999962533,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.9999996602621618,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    }
+  },
+  {
+    "id": "g07",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "According to the key assessment criteria, what is the difference between coherence and cohesion?",
+    "expected_answer": "Coherence refers to the linking of ideas through logical sequencing, while cohesion refers to the varied and appropriate use of cohesive devices such as logical connectors and conjunctions.",
+    "expected_context": "Coherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjuncti",
+    "answer": "Coherence refers to the linking of ideas through logical sequencing, ensuring that the overall message is organized and clear. In contrast, cohesion involves the use of cohesive devices, such as logical connectors, conjunctions, and pronouns, to clarify the relationships between and within sentences. This distinction highlights that coherence is about the overall structure and flow of ideas, while cohesion focuses on the specific linguistic tools used to connect those ideas [S1], [S5].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "Coherence refers to the linking of  ideas\nthrough logical  sequencing, while cohesion\nrefers to the varied and appropriate use of\ncohesive devices (e.g. logical connectors,\nconjunctions and pronouns)  to assist in\nmaking clear the relationships between and\nwithin  sentences.  \nLexical Resource  \nThis criterion refers to the range of vocabulary\nthe candidate has used and the accuracy and\nappropriacy of that use in terms of the specific\ntask.  \nGrammatical Range and Accuracy",
+      "Task 1 and Task 2  \nCOHERENCE AND COHESION (CC)  \nThis criterion is concerned with the overall organisation and logical development of\nthe message: how the response organises and links information, ideas and language.  \nCoherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjunctions and pronouns) to assist in making clear the relationships between and\nwithin sentences."
+    ],
+    "context_ids": [
+      "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-15",
+      "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-8"
+    ],
+    "scores": [
+      0.7370763421058655,
+      0.6594886183738708
+    ],
+    "context_hit": true,
+    "latency_ms": 1519.083800012595,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.7142857142857143,
+      "answer_relevancy": 0.8523999513891628,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g08",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What four criteria will examiners use to mark my IELTS essay, according to the 10-steps guide?",
+    "expected_answer": "Your essay will be marked on Task response, Coherence and cohesion, Lexical resource, and Grammatical range and accuracy, each worth 25 percent of the essay score.",
+    "expected_context": "Your essay will be marked by at least two experienced IELTS examiners on the following criteria:\n* Task response - Whether you answered the question fully and supported your answer well.\n* Coherence and cohesion - How well you linked your ideas together.\n* Lexical resource - Whether you used a wide range of vocabulary correctly and appropriately.\n* Grammatical range and accuracy - How many grammatical structures you used accurately and appropriately.\nEach of these criteria is worth 25 percent of your total score for the essay writing task.",
+    "answer": "According to the 10-steps guide, the four criteria that examiners will use to mark your IELTS essay are:\n\n1. Task achievement/response\n2. Coherence and cohesion\n3. Lexical resource\n4. Grammatical range and accuracy [S3].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+    ],
+    "context_ids": [
+      "news/C03_ielts_academic_writing_format.md::chunk-4"
+    ],
+    "scores": [
+      0.6893279552459717
+    ],
+    "context_hit": false,
+    "latency_ms": 1408.6086000024807,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.8836916172489947,
+      "context_recall": 0.5,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "id": "g09",
+    "config": "A_dense",
+    "query_type": "cross_lingual",
+    "question": "Band 7 của tiêu chí Coherence and Cohesion trong IELTS Writing yêu cầu những gì?",
+    "expected_answer": "Band 7 yêu cầu tổ chức thông tin và ý tưởng một cách logic, có sự tiến triển rõ ràng, và sử dụng hợp lý các phương tiện liên kết (cohesive devices) dù vẫn có thể còn dùng thiếu hoặc lạm dụng.",
+    "expected_context": "According to the public version of IELTS Writing Band Descriptors, to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some u",
+    "answer": "Band 7 của tiêu chí Coherence and Cohesion trong IELTS Writing yêu cầu thí sinh phải tổ chức thông tin và ý tưởng một cách hợp lý, có sự tiến triển rõ ràng trong toàn bài, sử dụng một loạt các thiết bị liên kết một cách phù hợp mặc dù có thể có sự sử dụng quá mức hoặc thiếu hụt, và trình bày một chủ đề trung tâm rõ ràng trong mỗi đoạn văn [S1].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      ". According to the [public version of IELTS Writing Band Descriptors](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail \"Learn how IELTS scoring works in detail\") to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some under-/over-use, and present a clear central topic within each paragraph."
+    ],
+    "context_ids": [
+      "news/A04_how_to_teach_paragraph_level_cohesion.md::chunk-3"
+    ],
+    "scores": [
+      0.6966531276702881
+    ],
+    "context_hit": false,
+    "latency_ms": 1600.8100000035483,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7910965740683423,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "id": "g10",
+    "config": "A_dense",
+    "query_type": "cross_lingual",
+    "question": "Bài IELTS Writing Task 1 (Academic) cần viết tối thiểu bao nhiêu từ và trong bao lâu?",
+    "expected_answer": "Task 1 Academic cần viết tối thiểu 150 từ trong khoảng 20 phút.",
+    "expected_context": "In Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.",
+    "answer": "Bài IELTS Writing Task 1 (Academic) cần viết tối thiểu 150 từ và trong khoảng 20 phút [S1].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "## What’s in the IELTS Academic Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to describe some visual information in your own words (a graph, table, chart or diagram). You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given a point of view, argument or problem which you need to discuss. You need to write at least 250 words in about 40 minutes."
+    ],
+    "context_ids": [
+      "news/C03_ielts_academic_writing_format.md::chunk-2"
+    ],
+    "scores": [
+      0.6243650913238525
+    ],
+    "context_hit": true,
+    "latency_ms": 1452.8964000055566,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6943588392442005,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "id": "g11",
+    "config": "A_dense",
+    "query_type": "cross_lingual",
+    "question": "IELTS Writing Task 2 có mấy tiêu chí chấm điểm và đó là những tiêu chí nào?",
+    "expected_answer": "Task 2 có 4 tiêu chí: Task Response, Coherence and Cohesion, Lexical Resource, và Grammatical Range and Accuracy.",
+    "expected_context": "For Task 2 of both the AC and GT Writing tests, the key criteria are:\n▪  Task Response\n▪  Coherence and Cohesion\n▪  Lexical Resource\n▪  Grammatical Range and Accuracy",
+    "answer": "IELTS Writing Task 2 có bốn tiêu chí chấm điểm, đó là: \n\n1. Coherence and Cohesion\n2. Lexical Resource\n3. Grammatical Range and Accuracy\n4. Task Response\n\nCác tiêu chí này áp dụng cho cả Task 1 và Task 2 trong cả hai mô hình Academic và General Training [S1], [S3].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "Page 7 of 26  \nIELTS.org  \nSample Candidate Writing Scripts and Examiner\nComments  \nBoth the Academic and General Training Writing\nModules consist of two tasks, Task 1 and Task 2.\nEach task is assessed independently. The\nassessment of Task 2 carries more weight in\nmarking than Task 1.  \nDetailed performance descriptors have been\ndeveloped which describe written performance at\nthe 9 IELTS bands. These descriptors apply to\nboth the Academic and General Training\nModules.",
+      "Ideas should be supported by evidence, and\nexamples may be drawn from a candidate’s\nown experience.  \nThe other criteria for Task 2 are the same as\nfor Task 1 (Coherence and Cohesion, Lexical\nResource, Grammatical Range and Accuracy).  \nWriting responses are marked by trained and\ncertificated IELTS examiners. Scores may be\nreported as whole bands or half-bands.  \nOn the next 17 pages you will find candidates’\nanswers to five sample Writing tasks. There\nare answers for each Writing task. Each"
+    ],
+    "context_ids": [
+      "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-11",
+      "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-17"
+    ],
+    "scores": [
+      0.593152642250061,
+      0.5799771547317505
+    ],
+    "context_hit": false,
+    "latency_ms": 1461.6646000067703,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.16666666666666666,
+      "answer_relevancy": 0.7083527574775058,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    }
+  },
+  {
+    "id": "g12",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What must a Band 9 response demonstrate for coherence and cohesion in Writing Task 1?",
+    "expected_answer": "A Band 9 response has only extremely rare lapses in coherence or cohesion, uses cohesion in a way that very rarely attracts attention, and manages paragraphing skilfully.",
+    "expected_context": "9 Any lapses in coherence or cohesion are  sophisticated control of lexical features. appropriately throughout.\nminimal.\nParagraphing is skilfully managed.",
+    "answer": "A Band 9 response for coherence and cohesion in Writing Task 1 must demonstrate a clear and logical organization of information and ideas, with a seamless progression throughout the response. It should effectively use a wide range of cohesive devices accurately and appropriately, ensuring that the relationships between ideas are clear and well-marked. Additionally, each paragraph must present a clear central topic, contributing to the overall coherence of the writing [S1].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      ". According to the [public version of IELTS Writing Band Descriptors](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail \"Learn how IELTS scoring works in detail\") to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some under-/over-use, and present a clear central topic within each paragraph."
+    ],
+    "context_ids": [
+      "news/A04_how_to_teach_paragraph_level_cohesion.md::chunk-3"
+    ],
+    "scores": [
+      0.6840158700942993
+    ],
+    "context_hit": false,
+    "latency_ms": 1374.2768999945838,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.16666666666666666,
+      "answer_relevancy": 0.9146704489895469,
+      "context_recall": 0.0,
+      "context_precision": 0.0
+    }
+  },
+  {
+    "id": "g13",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What kind of task is IELTS General Training Writing Task 1?",
+    "expected_answer": "General Training Writing Task 1 asks you to respond to a situation by writing a letter, for example asking for information or explaining a situation, in at least 150 words in about 20 minutes.",
+    "expected_context": "In Task 1, you have to respond to a situation by writing a letter, for example, asking for information or explaining a situation. You need to write at least 150 words in about 20 minutes.",
+    "answer": "IELTS General Training Writing Task 1 requires you to respond to a situation by writing a letter. The letter can be personal, semi-formal, or formal in style, depending on the task. You need to write at least 150 words and typically have about 20 minutes to complete it. The task will provide specific information to include in the form of three bullet points [S1], [S3].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "## What’s in the IELTS General Training Writing paper?\nThere are two Writing tasks and BOTH must be completed.\nIn Task 1, you have to **respond to a situation by writing a letter** , for example, asking for information or explaining a situation. You need to write at least 150 words in about 20 minutes.\nIn Task 2, you are given **a point of view, argument or problem which you need to discuss**. You need to write at least 250 words in about 40 minutes.",
+      "### Writing tasks 1 and 2\n##### Task 1\n#### What's involved?\nIn General Training Writing Task 1, you are given a situation and you need to write a response of at least 150 words in the form of a letter. Depending on the task, the letter may be personal, semi-formal or formal in style. The task tells you what information to include in the form of three bullet points."
+    ],
+    "context_ids": [
+      "news/C04_ielts_general_training_writing_format.md::chunk-2",
+      "news/C04_ielts_general_training_writing_format.md::chunk-9"
+    ],
+    "scores": [
+      0.7803865075111389,
+      0.7290093302726746
+    ],
+    "context_hit": false,
+    "latency_ms": 1571.7754999932367,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8900983445102114,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g14",
+    "config": "A_dense",
+    "query_type": "out_of_domain",
+    "question": "How many sections does the IELTS Listening test have and how long does it take?",
+    "expected_answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+    "expected_context": "(no supporting context exists in the corpus -- corpus chi thu thap tai lieu ve IELTS Writing, khong co Listening)",
+    "answer": "The IELTS Listening test has one section and it takes approximately 30 minutes, plus an additional 10 minutes to transfer your answers to an answer sheet [S1].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "### Learn about the other sections of the test\n[![IELTS Listening test icon red](https://ielts.org/cdn/ielts-ui-and-design/ielts-icons/ielts-listening-test-icon-red.webp?fit=cover&height=229&width=229&s=Mo2RHPbwqExP_K0p9PiQh6Qq0bfLYcrMNwZiQ_gk4W0)Listening](https://ielts.org/take-a-test/test-types/ielts-general-training-test/ielts-general-training-format-listening)\nTime allowed: Approximately 30 minutes (plus 10 minutes to transfer your answers to an answer sheet)"
+    ],
+    "context_ids": [
+      "news/C04_ielts_general_training_writing_format.md::chunk-21"
+    ],
+    "scores": [
+      0.7304145097732544
+    ],
+    "context_hit": null,
+    "latency_ms": 1126.2282000097912,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_recall": null,
+      "context_precision": null,
+      "refusal_correct": false
+    }
+  },
+  {
+    "id": "g15",
+    "config": "A_dense",
+    "query_type": "out_of_domain",
+    "question": "TOEFL Writing được chấm theo thang điểm nào?",
+    "expected_answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+    "expected_context": "(no supporting context exists in the corpus -- corpus chi ve IELTS, khong co TOEFL)",
+    "answer": "Toi khong the xac minh thong tin nay tu nguon hien co.",
+    "retrieval_source": "none",
+    "contexts": [],
+    "context_ids": [],
+    "scores": [],
+    "context_hit": null,
+    "latency_ms": 4190.38859999273,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_recall": null,
+      "context_precision": null,
+      "refusal_correct": true
+    }
+  },
+  {
+    "id": "g16",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What does the Lexical Resource criterion assess in IELTS Writing?",
+    "expected_answer": "Lexical Resource assesses the range of general words used, the adequacy and appropriacy of vocabulary, the precision of word choice, and the control of collocations and idiomatic expressions.",
+    "expected_context": "The LR criterion assesses:\nthe range of general words used (e.g. the use of synonyms to avoid repetition).\nthe adequacy and appropriacy of the vocabulary (e.g. topic-specific items,\nindicators of writer's attitude).\nthe precision of word choice and expression.\nthe control and use of collocations, idiomatic expressions and sophisticated\nphrasing.",
+    "answer": "The Lexical Resource criterion in IELTS Writing assesses the range and accuracy of vocabulary used by the test taker. It evaluates how well the candidate employs vocabulary to convey precise meaning and how effectively they use a variety of words and phrases in their writing [S3], [S2].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "### Marking\nCertificated IELTS IELTS examiners assess your performance on each Writing task. There are four assessment criteria:\n• Task achievement/response\n• Coherence and cohesion\n• Lexical resource\n• Grammatical range and accuracy.\n**Task achievement** (in Task 1) and **Task response** (in Task 2) assesses how accurately, appropriately and relevantly your response covers the task requirements, using the a minimum of 150 words for Task 1 and 250 words for Task 2.",
+      "### Marking\nCertificated IELTS examiners assess your performance on each Writing task. There are four key assessment criteria:\n* Task achievement/response\n* Coherence and cohesion\n* Lexical resource\n* Grammatical range and accuracy.  \n**Task achievement** (in Task 1) and **Task response** (in Task 2) assess how accurately, appropriately and relevantly your response covers the task requirements, using a minimum of 150 words for Task 1 and 250 words for Task 2."
+    ],
+    "context_ids": [
+      "news/C04_ielts_general_training_writing_format.md::chunk-4",
+      "news/C03_ielts_academic_writing_format.md::chunk-4"
+    ],
+    "scores": [
+      0.623242974281311,
+      0.6174765825271606
+    ],
+    "context_hit": false,
+    "latency_ms": 1402.798700000858,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9870606824070584,
+      "context_recall": 0.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "id": "g17",
+    "config": "A_dense",
+    "query_type": "in_domain",
+    "question": "What does the Grammatical Range and Accuracy criterion assess?",
+    "expected_answer": "It assesses the range and appropriacy of structures used (simple, compound, complex sentences), the accuracy of those structures, and the accurate and appropriate use of punctuation.",
+    "expected_context": "GRAMMATICAL RANGE AND ACCURACY (GRA)\nThis criterion refers to the range and accurate use of the candidate's grammatical\nresource via the candidate's writing at sentence level.\nThe GRA criterion assesses:\nthe range and appropriacy of structures used in a given response (e.g. simple,\ncompound and complex sentences).\nthe accuracy of simple, compound and complex s",
+    "answer": "The Grammatical Range and Accuracy criterion assesses the range of grammar used by the candidate and how accurately and appropriately it has been applied in their writing. It evaluates the variety of grammatical structures employed, including simple, compound, and complex sentences, as well as the accuracy of these structures and the impact of any grammatical errors on communication [S1], [S3], [S5], [S4].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "**Grammatical range and accuracy** assesses the range of grammar you have used and how accurately and appropriately you have used it.",
+      "▪\n▪  \n▪\n▪  \n▪\n▪\n▪  \nGRAMMATICAL RANGE AND ACCURACY (GRA)  \nThis criterion refers to the range and accurate use of the candidate’s grammatical\nresource via the candidate’s writing at sentence level.  \nThe GRA criterion assesses:  \n▪  \n▪\n▪\n▪  \nthe range and appropriacy of structures used in a given response (e.g. simple,\ncompound and complex sentences).\nthe accuracy of simple, compound and complex sentences.\nthe density and communicative effect of grammatical errors.",
+      "task.  \nGrammatical Range and Accuracy  \nThis criterion refers to the range and accurate\nuse of the candidate’s grammatical resource\nwithin the candidate’s writing at sentence level.  \nTask 2  \nTask Response  \nBoth the Academic and General Training\nWriting Task 2 require the candidates to\nformulate and develop a position in relation to\na given prompt in the form of a question or\nstatement, using a minimum of 250 words.\nIdeas should be supported by evidence, and",
+      "* **Grammatical range and accuracy** - How many grammatical structures you used accurately and appropriately.  \nEach of these criteria is worth 25 percent of your total score for the essay writing task. Both of your writing tasks are used to calculate your overall writing band score."
+    ],
+    "context_ids": [
+      "news/C03_ielts_academic_writing_format.md::chunk-7",
+      "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-12",
+      "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-16",
+      "news/A01_10_steps_to_writing_high_scoring_ielts_essays.md::chunk-5"
+    ],
+    "scores": [
+      0.8329232931137085,
+      0.73844313621521,
+      0.639281153678894,
+      0.6390904784202576
+    ],
+    "context_hit": false,
+    "latency_ms": 1481.2447000003885,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999995995604927,
+      "context_recall": 0.6666666666666666,
+      "context_precision": 0.999999999975
+    }
+  },
+  {
+    "id": "g18",
+    "config": "A_dense",
+    "query_type": "cross_doc",
+    "question": "Why is it important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions?",
+    "expected_answer": "Because Writing and Speaking are the productive skills that are hardest for universities to judge yet are the strongest predictors of student success; setting entry scores too low means students may struggle to meet the linguistic demands of their course.",
+    "expected_context": "For universities, interpreting English language test scores is a critical task - it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking - known as the productive skills - are often the most challenging for universities to judge, yet they are also the strongest predictors of success.",
+    "answer": "It is important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions because these scores are critical in determining who enters their programs and how well these students perform. Accurate interpretation helps universities set fair entry standards, identify students who may require additional support, and ensure consistency across departments. Moreover, a deeper understanding of how language ability correlates with academic performance supports better decision-making, ultimately enhancing student success and institutional reputation [S1], [S5], [S4].",
+    "retrieval_source": "hybrid",
+    "contexts": [
+      "## Stronger insights into IELTS produce better outcomes\nBy understanding what IELTS Writing and Speaking scores truly represent, universities can make more informed admissions decisions, set fair entry standards and improve student outcomes.\nTaking time to interpret results – and to align them with the real linguistic demands of university life – strengthens both student success and institutional reputation.",
+      "Being able to interpret what each band means in practical, academic terms allows universities to:\n* set appropriate minimum entry scores per skill\n* identify students who may require additional support\n* ensure consistency and fairness across departments.  \nAs the research above showed, this deeper understanding of how language ability maps to academic performance supports better decision-making and helps students succeed once admitted.",
+      "Date Published\n03 December 2025\nFor universities, interpreting English language test scores is a critical task – it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking – known as the productive skills – are often the most challenging for universities to judge, yet they are also the strongest predictors of success."
+    ],
+    "context_ids": [
+      "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-25",
+      "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-13",
+      "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-2"
+    ],
+    "scores": [
+      0.7317530512809753,
+      0.6472175717353821,
+      0.6446898579597473
+    ],
+    "context_hit": false,
+    "latency_ms": 1513.1372999894666,
+    "trace_error": null,
+    "metrics": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999666667
+    }
+  }
+]

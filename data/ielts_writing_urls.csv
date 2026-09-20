@@ -1,0 +1,38 @@
+id,group,publisher,title,url,use,notes
+C01,core_policy,IELTS,IELTS Writing Band Descriptors PDF,https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf,pdf_legal,Verified 200 application/pdf 141876 bytes
+C02,core_policy,IELTS,IELTS Writing Key Assessment Criteria PDF,https://ielts.org/cdn/ielts-guides/ielts-writing-key-assessment-criteria.pdf,pdf_legal,Verified 200 application/pdf 141957 bytes
+C06,core_policy,IELTS,Guide to IELTS Scores PDF,https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-scores-guide.pdf,pdf_legal,Added: 3rd legal PDF required by test_acceptance (>=3). Verified 200 application/pdf 2649664 bytes 27 pages
+C07,distractor_policy,IELTS,IELTS Speaking Band Descriptors PDF,https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf,pdf_distractor,"Optional. Same Lexical Resource / Grammatical Range criteria names as Writing, different Task Achievement/Coherence criteria. Include only if team wants a precision trap (see plan section 1.8). Verified 200 application/pdf 91142 bytes"
+C08,distractor_policy,IELTS,IELTS Speaking Key Assessment Criteria PDF,https://ielts.org/cdn/ielts-guides/ielts-speaking-key-assessment-criteria.pdf,pdf_distractor,Optional distractor pair with C07. Verified 200 application/pdf 111379 bytes
+C03,test_format,IELTS,IELTS Academic Writing format,https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing,news,Verified 200 text/html
+C04,test_format,IELTS,IELTS General Training Writing format,https://ielts.org/take-a-test/test-types/ielts-general-training-test/ielts-general-training-format-writing,news,Verified 200 text/html
+C05,preparation,IELTS,IELTS Writing preparation resources,https://ielts.org/take-a-test/preparation-resources/writing-test-resources,news,Verified 200 text/html
+S01,official_samples,IELTS,IELTS Academic sample test questions,https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test,news,Verified 200 text/html
+S06,official_samples,IELTS,IELTS General Training sample test questions,https://ielts.org/take-a-test/preparation-resources/sample-test-questions/general-training-test,news,Verified 200 text/html
+A00,official_article,IELTS,IELTS Writing Band Descriptors and Key Assessment Criteria,https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria,news,Verified 200 text/html
+A01,official_article,IELTS,10 Steps to Writing High-scoring IELTS Essays,https://ielts.org/news-and-insights/10-steps-to-writing-high-scoring-ielts-essays,news,Verified 200 text/html
+A02,official_article,IELTS,IELTS Writing Task 2 - How to understand question prompts,https://ielts.org/news-and-insights/ielts-writing-task-2-how-to-understand-ielts-question-prompts,news,Verified 200 text/html
+A03,official_article,IELTS,Preparing learners for Academic Writing Task 1,https://ielts.org/news-and-insights/preparing-learners-for-task-1-on-the-ielts-academic-writing-test,news,Verified 200 text/html
+A04,official_article,IELTS,How to teach paragraph-level cohesion,https://ielts.org/news-and-insights/how-to-teach-paragraph-level-cohesion,news,Verified 200 text/html
+A05,official_article,IELTS,How to address vocabulary in an IELTS preparation course,https://ielts.org/news-and-insights/how-to-address-vocabulary-in-an-ielts-preparation-course,news,Verified 200 text/html
+A06,official_article,IELTS,Grammar essentials - the passive voice,https://ielts.org/news-and-insights/grammar-essentials-the-passive-voice,news,Verified 200 text/html
+A07,official_article,IELTS,How to increase IELTS grammar score from Band 4 to Band 5,https://ielts.org/news-and-insights/how-to-increase-your-ielts-grammar-score-from-band-4-to-band-5,news,Verified 200 text/html
+A08,official_article,IELTS,Reach Band 5 and higher in IELTS General Training Writing,https://ielts.org/news-and-insights/reach-a-band-5-and-higher-in-ielts-general-training-writing,news,Verified 200 text/html
+A09,official_article,IELTS,How to write a semi-formal letter for IELTS General Training Writing Task 1,https://ielts.org/news-and-insights/how-to-write-a-semi-formal-letter-for-ielts-general-training-writing-task-1,news,Verified 200 text/html
+A10,official_article,IELTS,Differences between IELTS Band 6 and Band 7 for productive skills,https://ielts.org/news-and-insights/differences-between-ielts-6-and-7-for-productive-skills,news,Verified 200 text/html
+B01,partner_article,British Council,Formal vs informal English for IELTS Writing,https://takeielts.britishcouncil.org/blog/a-guide-to-formal-vs-informal-english-for-ielts-writing,skip,BLOCKED: repeated curl timeouts across multiple retries. Fetch manually via browser if wanted; do not depend on it for the pipeline.
+B02,discovery_hub,British Council,British Council IELTS Blog,https://takeielts.britishcouncil.org/blog,skip,Listing/hub page (also timed out) plus not an article; do not index.
+V01,partner_article,IDP Vietnam,4 tieu chi cham IELTS Writing,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-band-descriptors,news,"Verified 200 on retry (first attempt timed out - site is slow, crawler needs generous timeout + retry)"
+V02,partner_article,IDP Vietnam,Tong quan cac dang IELTS Writing Task 1,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1,news,Verified 200 text/html
+V03,partner_article,IDP Vietnam,IELTS Writing Task 1 - Line Graph,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-line-graph,news,Verified 200 text/html
+V04,partner_article,IDP Vietnam,IELTS Writing Task 1 - Bar Charts,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-bar-charts,news,Verified 200 text/html
+V05,partner_article,IDP Vietnam,IELTS Writing Task 1 - Maps,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-maps,news,Verified 200 text/html
+V06,partner_article,IDP Vietnam,IELTS Writing Task 1 - Process and Diagram,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-process,news,Verified 200 text/html
+V07,partner_article,IDP Vietnam,IELTS Writing Task 1 Band 9 samples,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-1-sample-band-9,news,Verified 200 text/html
+V08,partner_article,IDP Vietnam,Cac dang IELTS Writing Task 2,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-2,news,Verified 200 text/html
+V09,partner_article,IDP Vietnam,Chu de pho bien trong IELTS Writing Task 2,https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-topic-writing-task-2,news,Verified 200 text/html
+V10,partner_article,IDP Vietnam,Hieu de IELTS Writing Task 2,https://ielts.idp.com/vietnam/about/news-and-articles/article-how-to-understand-task-2-writing-questions,news,Verified 200 text/html
+V11,partner_article,IDP Vietnam,Proofreading trong IELTS Writing,https://ielts.idp.com/vietnam/about/news-and-articles/article-proofreading,news,Verified 200 text/html
+V12,discovery_hub,IDP Vietnam,IDP IELTS News and Articles hub,https://ielts.idp.com/vietnam/about/news-and-articles,skip,Listing/hub page - crawls as navigation menu, not article content; do not index.
+L01,legal,IELTS,IELTS copyright and trade mark statement,https://ielts.org/legal/ielts-copyright-and-trade-mark-statement,skip,"Copyright notice, not IELTS Writing content. Excluded by default; keep as a labelled distractor only if the team explicitly wants one (see plan section 1.8)."
+L02,legal,IDP Vietnam,IDP legal notices,https://ielts.idp.com/vietnam/legal-notices/en-gb,skip,Same as L01 - legal boilerplate, not domain content.

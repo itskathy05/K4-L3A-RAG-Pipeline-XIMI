@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-09-20T09:51:00.944459+00:00",
+  "top_k": 5,
+  "dataset": "D:\\Learning\\AI_in_Action\\K4-L3A-RAG-Pipeline-XIMI\\group_project\\evaluation\\golden_dataset.json",
+  "n_cases": 18,
+  "skip_metrics": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "g07",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "According to the key assessment criteria, what is the difference between coherence and cohesion?",
+  "expected_answer": "Coherence refers to the linking of ideas through logical sequencing, while cohesion refers to the varied and appropriate use of cohesive devices such as logical connectors and conjunctions.",
+  "expected_context": "Coherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjuncti",
+  "answer": "Coherence refers to the linking of ideas through logical sequencing, ensuring that the overall message is organized and clear. In contrast, cohesion involves the use of cohesive devices, such as logical connectors, conjunctions, and pronouns, to clarify the relationships between and within sentences. This distinction highlights that coherence is about the overall structure and flow of ideas, while cohesion focuses on the specific linguistic tools used to connect those ideas [S1], [S5].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "Coherence refers to the linking of  ideas\nthrough logical  sequencing, while cohesion\nrefers to the varied and appropriate use of\ncohesive devices (e.g. logical connectors,\nconjunctions and pronouns)  to assist in\nmaking clear the relationships between and\nwithin  sentences.  \nLexical Resource  \nThis criterion refers to the range of vocabulary\nthe candidate has used and the accuracy and\nappropriacy of that use in terms of the specific\ntask.  \nGrammatical Range and Accuracy",
+    "Task 1 and Task 2  \nCOHERENCE AND COHESION (CC)  \nThis criterion is concerned with the overall organisation and logical development of\nthe message: how the response organises and links information, ideas and language.  \nCoherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjunctions and pronouns) to assist in making clear the relationships between and\nwithin sentences."
+  ],
+  "context_ids": [
+    "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-15",
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-8"
+  ],
+  "scores": [
+    0.7370763421058655,
+    0.6594886183738708
+  ],
+  "context_hit": true,
+  "latency_ms": 1519.083800012595,
+  "trace_error": null
+}

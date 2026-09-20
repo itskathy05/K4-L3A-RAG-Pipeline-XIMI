@@ -1,0 +1,22 @@
+{
+  "id": "g08",
+  "config": "B_hybrid",
+  "query_type": "in_domain",
+  "question": "What four criteria will examiners use to mark my IELTS essay, according to the 10-steps guide?",
+  "expected_answer": "Your essay will be marked on Task response, Coherence and cohesion, Lexical resource, and Grammatical range and accuracy, each worth 25 percent of the essay score.",
+  "expected_context": "Your essay will be marked by at least two experienced IELTS examiners on the following criteria:\n* Task response - Whether you answered the question fully and supported your answer well.\n* Coherence and cohesion - How well you linked your ideas together.\n* Lexical resource - Whether you used a wide range of vocabulary correctly and appropriately.\n* Grammatical range and accuracy - How many grammatical structures you used accurately and appropriately.\nEach of these criteria is worth 25 percent of your total score for the essay writing task.",
+  "answer": "According to the 10-steps guide, examiners will use the following four criteria to mark your IELTS essay:\n\n1. Task response\n2. Coherence and cohesion\n3. Lexical resource\n4. Grammatical range and accuracy [S5].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "### Marking\nCertificated IELTS IELTS examiners assess your performance on each Writing task. There are four assessment criteria:\n• Task achievement/response\n• Coherence and cohesion\n• Lexical resource\n• Grammatical range and accuracy.\n**Task achievement** (in Task 1) and **Task response** (in Task 2) assesses how accurately, appropriately and relevantly your response covers the task requirements, using the a minimum of 150 words for Task 1 and 250 words for Task 2."
+  ],
+  "context_ids": [
+    "news/C04_ielts_general_training_writing_format.md::chunk-4"
+  ],
+  "scores": [
+    0.030621785881252923
+  ],
+  "context_hit": false,
+  "latency_ms": 1517.6363000064157,
+  "trace_error": null
+}

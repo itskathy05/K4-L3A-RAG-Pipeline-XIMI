@@ -1,0 +1,22 @@
+{
+  "id": "g05",
+  "config": "A_dense",
+  "query_type": "keyword_heavy",
+  "question": "Which IELTS Writing band descriptor mentions using a range of cohesive devices appropriately although there may be some under- or over-use?",
+  "expected_answer": "Band 7 for Coherence and Cohesion requires logically organising information and ideas with a clear progression, and using a range of cohesive devices appropriately, although there may be some under- or over-use.",
+  "expected_context": "According to the public version of IELTS Writing Band Descriptors, to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some u",
+  "answer": "The IELTS Writing band descriptor that mentions using a range of cohesive devices appropriately, although there may be some under- or over-use, is found in Document 4. It states that cohesive devices are used to some good effect but may be faulty or mechanical due to misuse, overuse, or omission [S4].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "7 precision in supporting ideas/material. reference and substitution is used flexibly but  An awareness of style and collocation is\nwith some inaccuracies or some over/under  evident, though inappropriaciesoccur. A few errors in grammar may persist, but\n| use. |     | these do not impede communication. |\n| ---- | --- | ---------------------------------- |\nThere are only a few errors in spelling\n| Paragraphing is generally used effectively to  | and/or word formation and they do not  |     |\n| ---------------------------------------------- | -------------------------------------- | --- |\n| support overall coherence, and the sequencing  | detract from overall clarity.          |     |\nof ideas within a paragraph is generally logical.\n\nWriting Task 2 Band Descriptors\nUpdated May 2023\nScoring criteria for Academic and General Training tests Please visit IELTS.org for updates\nPage 2\nA script must fully fit the positive features of the descriptor at a particular level. Bolded text indicates negative features that will limit a rating.\nde Task Response Coherence & Cohesion Lexical Resource Grammatical Range &\nnr\no\nac Accuracy\nBS\nThe main parts of the prompt are addressed (though some may be Information and ideas are generally arranged The resource is generally adequate and A mix of simple and complex sentence\nmore fully covered than others). An appropriate format is used. coherently and there is a clear overall appropriate for the task. forms is used but flexibility is limited.\nprogression.\nA position is presented that is directly relevant to the prompt, The meaning is generally clear in spite of a Examples of more complex structures are\nalthough the conclusions drawn may be unclear, unjustified or Cohesive devices are used to some good effect rather restricted range or a lack of not marked by the same level of accuracy\nrepetitive. but cohesion within and/or between sentences precision in word choice. as in simple structures.\nmay be faulty or mechanical due to misuse,\nMain ideas are relevant, but some may be insufficiently developed overuse or omission. If the writer is a risk-taker, there will be a Errors in grammar and punctuation occur,"
+  ],
+  "context_ids": [
+    "legal/C01_ielts_writing_band_descriptors.md::chunk-8"
+  ],
+  "scores": [
+    0.6548816561698914
+  ],
+  "context_hit": false,
+  "latency_ms": 2161.6120000107912,
+  "trace_error": null
+}

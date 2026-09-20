@@ -1,0 +1,22 @@
+{
+  "id": "g12",
+  "config": "A_dense",
+  "query_type": "in_domain",
+  "question": "What must a Band 9 response demonstrate for coherence and cohesion in Writing Task 1?",
+  "expected_answer": "A Band 9 response has only extremely rare lapses in coherence or cohesion, uses cohesion in a way that very rarely attracts attention, and manages paragraphing skilfully.",
+  "expected_context": "9 Any lapses in coherence or cohesion are  sophisticated control of lexical features. appropriately throughout.\nminimal.\nParagraphing is skilfully managed.",
+  "answer": "A Band 9 response for coherence and cohesion in Writing Task 1 must demonstrate a clear and logical organization of information and ideas, with a seamless progression throughout the response. It should effectively use a wide range of cohesive devices accurately and appropriately, ensuring that the relationships between ideas are clear and well-marked. Additionally, each paragraph must present a clear central topic, contributing to the overall coherence of the writing [S1].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    ". According to the [public version of IELTS Writing Band Descriptors](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail \"Learn how IELTS scoring works in detail\") to achieve a 7 for coherence and cohesion, the test taker needs to logically organize information and ideas, have a clear progression throughout, use a range of cohesive devices appropriately although there may be some under-/over-use, and present a clear central topic within each paragraph."
+  ],
+  "context_ids": [
+    "news/A04_how_to_teach_paragraph_level_cohesion.md::chunk-3"
+  ],
+  "scores": [
+    0.6840158700942993
+  ],
+  "context_hit": false,
+  "latency_ms": 1374.2768999945838,
+  "trace_error": null
+}

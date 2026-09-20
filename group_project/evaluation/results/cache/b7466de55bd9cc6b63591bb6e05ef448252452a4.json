@@ -1,0 +1,28 @@
+{
+  "id": "g18",
+  "config": "A_dense",
+  "query_type": "cross_doc",
+  "question": "Why is it important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions?",
+  "expected_answer": "Because Writing and Speaking are the productive skills that are hardest for universities to judge yet are the strongest predictors of student success; setting entry scores too low means students may struggle to meet the linguistic demands of their course.",
+  "expected_context": "For universities, interpreting English language test scores is a critical task - it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking - known as the productive skills - are often the most challenging for universities to judge, yet they are also the strongest predictors of success.",
+  "answer": "It is important for universities to correctly interpret IELTS Writing and Speaking band scores for admissions because these scores are critical in determining who enters their programs and how well these students perform. Accurate interpretation helps universities set fair entry standards, identify students who may require additional support, and ensure consistency across departments. Moreover, a deeper understanding of how language ability correlates with academic performance supports better decision-making, ultimately enhancing student success and institutional reputation [S1], [S5], [S4].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "## Stronger insights into IELTS produce better outcomes\nBy understanding what IELTS Writing and Speaking scores truly represent, universities can make more informed admissions decisions, set fair entry standards and improve student outcomes.\nTaking time to interpret results – and to align them with the real linguistic demands of university life – strengthens both student success and institutional reputation.",
+    "Being able to interpret what each band means in practical, academic terms allows universities to:\n* set appropriate minimum entry scores per skill\n* identify students who may require additional support\n* ensure consistency and fairness across departments.  \nAs the research above showed, this deeper understanding of how language ability maps to academic performance supports better decision-making and helps students succeed once admitted.",
+    "Date Published\n03 December 2025\nFor universities, interpreting English language test scores is a critical task – it determines who enters your programmes, how well they perform, and how they contribute to your academic community. Among all assessed skills, Writing and Speaking – known as the productive skills – are often the most challenging for universities to judge, yet they are also the strongest predictors of success."
+  ],
+  "context_ids": [
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-25",
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-13",
+    "news/A10_differences_between_ielts_band_6_and_band_7_for_productive_skills.md::chunk-2"
+  ],
+  "scores": [
+    0.7317530512809753,
+    0.6472175717353821,
+    0.6446898579597473
+  ],
+  "context_hit": false,
+  "latency_ms": 1513.1372999894666,
+  "trace_error": null
+}

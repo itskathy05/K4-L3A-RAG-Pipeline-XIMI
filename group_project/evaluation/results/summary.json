@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-09-20T09:51:00.940968+00:00",
+  "config_a": {
+    "overall": {
+      "faithfulness": 0.759077380952381,
+      "answer_relevancy": 0.8905000564964161,
+      "context_recall": 0.6979166666666666,
+      "context_precision": 0.8124999999463541,
+      "average": 0.7899985260154545
+    },
+    "context_hit_rate": 0.3125,
+    "refusal_accuracy": 0.5,
+    "avg_latency_ms": 1785.5193055559841,
+    "n_cases": 18
+  },
+  "config_b": {
+    "overall": {
+      "faithfulness": 0.8504464285714286,
+      "answer_relevancy": 0.887031577716027,
+      "context_recall": 0.8229166666666666,
+      "context_precision": 0.9374999999276041,
+      "average": 0.8744736682204316
+    },
+    "context_hit_rate": 0.3125,
+    "refusal_accuracy": 0.5,
+    "avg_latency_ms": 1718.1694833351585,
+    "n_cases": 18
+  },
+  "worst_performers_config_b": [
+    {
+      "id": "g11",
+      "question": "IELTS Writing Task 2 có mấy tiêu chí chấm điểm và đó là những tiêu chí nào?",
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.7084253115542994,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": "g12",
+      "question": "What must a Band 9 response demonstrate for coherence and cohesion in Writing Task 1?",
+      "metrics": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.8085562088935196,
+        "context_recall": 0.0,
+        "context_precision": 0.99999999995
+      }
+    },
+    {
+      "id": "g08",
+      "question": "What four criteria will examiners use to mark my IELTS essay, according to the 10-steps guide?",
+      "metrics": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 0.9520900444782994,
+        "context_recall": 0.5,
+        "context_precision": 0.9999999999
+      }
+    }
+  ]
+}

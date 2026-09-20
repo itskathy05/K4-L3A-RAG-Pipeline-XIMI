@@ -1,0 +1,25 @@
+{
+  "id": "g07",
+  "config": "B_hybrid",
+  "query_type": "in_domain",
+  "question": "According to the key assessment criteria, what is the difference between coherence and cohesion?",
+  "expected_answer": "Coherence refers to the linking of ideas through logical sequencing, while cohesion refers to the varied and appropriate use of cohesive devices such as logical connectors and conjunctions.",
+  "expected_context": "Coherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjuncti",
+  "answer": "Coherence refers to the linking of ideas through logical sequencing, while cohesion involves the varied and appropriate use of cohesive devices (such as logical connectors, conjunctions, and pronouns) to clarify the relationships between and within sentences [S3], [S2].",
+  "retrieval_source": "hybrid",
+  "contexts": [
+    "Task 1 and Task 2  \nCOHERENCE AND COHESION (CC)  \nThis criterion is concerned with the overall organisation and logical development of\nthe message: how the response organises and links information, ideas and language.  \nCoherence refers to the linking of ideas through logical sequencing, while cohesion\nrefers to the varied and appropriate use of cohesive devices (e.g. logical connectors,\nconjunctions and pronouns) to assist in making clear the relationships between and\nwithin sentences.",
+    "Coherence refers to the linking of  ideas\nthrough logical  sequencing, while cohesion\nrefers to the varied and appropriate use of\ncohesive devices (e.g. logical connectors,\nconjunctions and pronouns)  to assist in\nmaking clear the relationships between and\nwithin  sentences.  \nLexical Resource  \nThis criterion refers to the range of vocabulary\nthe candidate has used and the accuracy and\nappropriacy of that use in terms of the specific\ntask.  \nGrammatical Range and Accuracy"
+  ],
+  "context_ids": [
+    "legal/C02_ielts_writing_key_assessment_criteria.md::chunk-8",
+    "legal/C06_ielts_academic_writing_sample_tasks.md::chunk-15"
+  ],
+  "scores": [
+    0.031009615384615385,
+    0.030886196246139225
+  ],
+  "context_hit": true,
+  "latency_ms": 1372.969900010503,
+  "trace_error": null
+}
